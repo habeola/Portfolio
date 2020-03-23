@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    background-color: gainsboro;
+}
+
+.sidenav {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    float: left;
+    width: 25%;
+    background-color: rgb(25, 25, 60);
+
+}
+
+.sidenav img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.sidenav h1, h4 {
+    text-align: center;
+    margin: 5px;
+    color:white;
+}
+
+.ontheside ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+.ontheside ul li a {
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-right: 10px;
+    line-height: 100%;  
+    color:white;
+}
+
+
+.maincontent {
+    float: right;
+    width: 75%;
+    position: scroll;
+    margin-bottom: 100px;
+}
+
+.maincontent2 {
+    float: right;
+    width: 75%;
+    position: scroll;
+    margin-bottom: 2000px;
+}
+
+.maincontent3 {
+    float: right;
+    width: 75%;
+    position: scroll;
+    margin-bottom: 75px;
+}
+
+.maincontent4 {
+    float: right;
+    width: 75%;
+    position: scroll;
+    margin-bottom: 500px;
+}
+
+.maincontent h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.maincontent2 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.maincontent3 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.maincontent4 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.card1 {
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px grey;
+    transition: 0.3s;
+    width: 30%;
+    border-radius: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: ghostwhite;
+}
+
+.card1 img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.content {
+    padding: 8px 20px 20px;
+}
+
+.maincontent-others p {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 5px grey;
+    margin: 10px 100px;
+}
+
+.header img {
+    width:100%;
+    height: auto;
+}
+
+.card-image {
+    position: relative;
+    color: white;
+    text-align: center;
+    width:100%;
+    height: auto;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+    padding: 0px;
+}
+
+.centered-text e {
+    color: tomato;
+}
+
+.card h2{
+    font-size: 30px;
+    padding: 15px;
+    background-color: teal;
+    margin-top: 0px;
+    
+}
+
+.card p {
+    padding: 20px;
+    font-size: 20px; 
+}
+
+.skills, .skills2, .skills3, .skills4, .skills5 {
+    position: absolute;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
+    padding: 20px;
+    width: 67%;
+    background-color: ghostwhite;
+}
+
+.skills {
+    margin: 0 20px 50px 20px;
+}
+
+.skills2 {
+    margin: 400px 20px 50px 20px;
+}
+
+.skills3 {
+    margin: 800px 20px 50px 20px;
+}
+
+.skills4 {
+    margin: 1200px 20px 50px 20px;
+}
+
+.skills5 {
+    margin: 1600px 20px 50px 20px;
+}
+
+
+.card2, .card3, .card4, .card5 {
+    position: relative;
+    transition: 0.3s;
+    width: 10%;
+    float: left;
+    margin-top: 20px;
+}
+
+.card2, .card5 {
+    margin-left: 25%;
+}
+
+.card3 {
+    margin-left: 17%;
+}
+
+.card4 {
+    margin-left: 45%;
+}
+
+.skills img, .skills2 img, .skills3 img, .skills4 img, .skills5 img {
+    width: 120px;
+    height: 100px;
+}
+
+.education {
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 50px;
+    background-color: ghostwhite;
+}
+
+.education h2 {
+    font-family: sans-serif;
+    color: green;
+}
+
+.education e {
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.contact ul li {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.contact ul li i {
+    margin-right: 20px;
+}
